@@ -1,0 +1,105 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+}
+
+#app {
+    /* The image used */
+    background-image: url("/images/Lantern Festival 2019 - Home.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    min-height: 4273px;
+}
+
+.section2 {
+    padding-top: 60rem;
+    position: relative;
+
+    h4 {
+        color: white;
+        position: absolute;
+        top: 60rem;
+        left: 41rem;
+    }
+
+    h5 {
+        color: #bab59d;
+        position: absolute;
+        top: 66rem;
+        left: 38rem;
+    }
+
+    .wrapper {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: -68rem;
+        padding-left: 5rem;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 32%;
+
+    p:first-of-type {
+        color: #75b65b;
+    }
+
+    p:nth-of-type(2) {
+        color: white;
+        line-height: 1px;
+    }
+
+    p:nth-of-type(3) {
+        color: #717273;
+    }
+
+    img {
+        border: 1px solid #f02b71;
+        width: 173px;
+        height: 114px;
+    }
+}
+
+.section3 {
+    padding-top: 30rem;
+    position: relative;
+
+    h4 {
+        color: white;
+        position: absolute;
+        top: 30rem;
+        left: 43rem;
+    }
+
+    .wrapper {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: -37rem;
+        padding-left: 5rem;
+    }
+}
+
+.slick-dots {
+    bottom: -113px !important;
+}
+
+
